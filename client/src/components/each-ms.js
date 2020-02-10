@@ -16,7 +16,7 @@
 import React , {Component} from 'react'
 import Navbar from './navbar.js'
 import {Link} from 'react-router-dom';
-import './view_ms.css'
+// import './view_ms.css'
 import axios from 'axios'
 
 /* 
@@ -90,7 +90,7 @@ class Each_MS extends Component{
     )
   }
   /*
-  Sometimes, micro-frontends listen to some events and perform actions as well, the function(s) presen below are normal event-handlers from react.
+  Sometimes, micro-frontends listen to some events and perform actions as well, the function(s) present below are normal event-handlers from react.
   */
 
 }
