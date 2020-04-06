@@ -1,0 +1,15 @@
+{
+  "name": "microservice-code-genrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "microservices-builder.js",
+  "dependencies": {
+    "ncp": "2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prakhar Gupta",
+  "license": "ISC"
+}
