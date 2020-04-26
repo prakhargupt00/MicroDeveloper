@@ -4,7 +4,7 @@
   "description": "",
   "main": "microservices-builder.js",
   "dependencies": {
-    "ncp": "2.0.0"
+    "ncp": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
