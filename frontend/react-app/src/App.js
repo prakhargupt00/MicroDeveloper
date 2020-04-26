@@ -6,6 +6,7 @@ import ServiceMapping from './components/ServiceMapping' ;
 import Home from './components/Home.jsx';
 import NotFound from './components/NotFound'
 import { Redirect } from "react-router-dom";
+import Status from './components/status.jsx' ; 
 
 function App() {
   var  microserviceMapping = {
@@ -48,10 +49,11 @@ function App() {
       {/* <Route exact path = '/mapping' render = { (props) => <ServiceMapping {...props} microservice = {microserviceMapping} allMappings = {allMappings} microserviceB = {microserviceB} />} /> */}
       <Route exact path = '/mapping' component = {ServiceMapping} />
       <Route exact path = '/home'    component = {Home}  />
+      <Route exact path = '/status' component={Status}/>
       {/* <Route component = {NotFound} /> */}
       {/* </Switch> */}
     </BrowserRouter>
-  
+
   );
 }
 
