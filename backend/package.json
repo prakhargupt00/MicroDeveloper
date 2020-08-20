@@ -19,7 +19,7 @@
     "mongoose": "^5.8.9",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2",
-    "bcrypt": "^3.0.8",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "jsonwebtoken": "^8.5.1",
